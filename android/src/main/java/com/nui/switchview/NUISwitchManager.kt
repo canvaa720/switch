@@ -247,7 +247,7 @@ class NUISwitchManager : SimpleViewManager<MaterialSwitch>(),
       val typedValue = TypedValue()
       val theme = view.context.theme
       val got = theme.resolveAttribute(
-        com.google.android.material.R.attr.colorPrimary,
+        androidx.appcompat.R.attr.colorPrimary,
         typedValue,
         true
       )
